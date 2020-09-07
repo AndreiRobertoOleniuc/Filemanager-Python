@@ -38,28 +38,28 @@ def moveItems():
                             print("Dies ist der Datein Typ: "+filename[-5] + filename[-4] + filename[size - 3])
                             modul = filename[43] + filename[44] + filename[45]
 
-                            if modul == "152":
+                            if modul == "133":
                                 if doktype == "ocx":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Word")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Word")
                                 elif doktype == "zip":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Websites")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Programme")
                                 elif doktype == "ptx":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\PPP")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\PPP")
                                 elif doktype == "lsx":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Excel")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Excel")
                                 elif doktype == "pdf":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Pdf")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Pdf")
                                 else:
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133")
                             else:
                                 if doktype == "ptx":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\PPP")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\PPP")
                                 elif doktype == "lsx":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Excel")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Excel")
                                 elif doktype == "tmp":
                                     shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\Bin")
                                 elif doktype == "pdf":
-                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\152\Pdf")
+                                    shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop\Schule\BBB\133\Pdf")
                                 else:
                                     shutil.move(filePath, r"C:\Users\Andrei Oleniuc\Desktop")
                             print()
